@@ -9,7 +9,8 @@
     "jest": "jest --verbose",
     "test": "npm run build & npm run lint & jest --color",
     "update-snapshots": "jest --updateSnapshot",
-    "lint": "tslint --project ./"
+    "lint": "tslint --project ./",
+    "prepack": "tsc"
   },
   "repository": {
     "type": "git",
